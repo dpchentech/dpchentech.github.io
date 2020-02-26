@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 采矿与岩石力学</title>
+    <link>http://dpchen.tech/post/</link>
+    <description>Recent content in Posts on 采矿与岩石力学</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2017-2020 [DP CHEN](mailto:dp.chen@hotmail.com)&lt;br/&gt;[桂ICP备18000352号](http://beian.miit.gov.cn/)&amp;#8194;[桂公网安备 45092202000029号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029)</copyright>
+    <lastBuildDate>Wed, 26 Feb 2020 12:33:55 +0800</lastBuildDate>
+    
+	<atom:link href="http://dpchen.tech/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WordPress to Hugo</title>
+      <link>http://dpchen.tech/2020/02/26/wordpress-to-hugo/</link>
+      <pubDate>Wed, 26 Feb 2020 12:33:55 +0800</pubDate>
+      
+      <guid>http://dpchen.tech/2020/02/26/wordpress-to-hugo/</guid>
+      <description>时隔半年，个人网站重新开通。</description>
+    </item>
+    
+  </channel>
+</rss>
