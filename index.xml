@@ -6,10 +6,22 @@
     <description>Recent content on 采矿与岩石力学</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2017-2020 [DP CHEN](mailto:dp.chen@hotmail.com)&lt;br/&gt;[桂ICP备18000352号](http://beian.miit.gov.cn/)&amp;#8194;[桂公网安备 45092202000029号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029)</copyright>
-    <lastBuildDate>Wed, 26 Feb 2020 12:33:55 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2020 17:56:56 +0800</lastBuildDate>
     
 	<atom:link href="http://dpchen.tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://dpchen.tech/2020/03/06/</link>
+      <pubDate>Fri, 06 Mar 2020 17:56:56 +0800</pubDate>
+      
+      <guid>http://dpchen.tech/2020/03/06/</guid>
+      <description>传统数学地质分析方法  科学仅当它成功地利用数学时才达到完善程度——马克思
+ 数学地质是一门应用“多元分析方法”解决地质属性判别的学科。多元分析是相对一元分析而言，前者是后者的推广，从一元变量推广到多元随机变量相互关系的研究。 从地质、地球化学观点来研究，多元分析方法大致包括以下几个方面：
+1. 地质体属性的研究 1）相关分析与回归分析； 2）点群分析； 3）判别分析； 4）典型相关分析； 5）因子分析； 6）非线性映射分析； 7）对应分析。 2. 地质体特征的空间研究 1）趋势面分析； 2）调和趋势面分析； 3）典型趋势面分析； 4）单位向量场分析。 3. 变量的相关空间，地质统计分析 4. 参数的时间变化，马尔可夫概型分析  参考文献
+侯景儒. 数学地质浅谈[J]. 地质与勘探, 1977(07):14-21.</description>
+    </item>
     
     <item>
       <title>WordPress to Hugo</title>
