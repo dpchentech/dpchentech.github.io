@@ -63,8 +63,9 @@
 CSU CSU Library OD OA
 CNKI Scopus Springer Web of Science
 Search Engines CNKI Scopus Springer Web of Science
-百度学术 谷歌学术
-Links NSFC 科学网 CNIPA</description>
+百度学术 谷歌学术 CNIPA
+Links NSFC CNIA
+News 科学网 CNMN</description>
     </item>
     
     <item>
@@ -73,7 +74,7 @@ Links NSFC 科学网 CNIPA</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.dpchen.tech/project/</guid>
-      <description>Project 地质空间数据科学 </description>
+      <description>地质空间数据科学 </description>
     </item>
     
     <item>
