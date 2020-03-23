@@ -6,10 +6,19 @@
     <description>Recent content on 采矿与岩石力学</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2017-2020 [DP CHEN](mailto:author@dpchen.tech)&lt;br/&gt;[桂ICP备18000352号](http://beian.miit.gov.cn/)&amp;#8194;[桂公网安备 45092202000029号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029)</copyright>
-    <lastBuildDate>Fri, 06 Mar 2020 17:56:56 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2020 00:31:46 +0800</lastBuildDate>
     
 	<atom:link href="http://www.dpchen.tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CFSFDP算法浅析</title>
+      <link>http://www.dpchen.tech/project/cfsfdp/</link>
+      <pubDate>Tue, 24 Mar 2020 00:31:46 +0800</pubDate>
+      
+      <guid>http://www.dpchen.tech/project/cfsfdp/</guid>
+      <description>Clustering by Fast Search and Find of Density Peaks </description>
+    </item>
     
     <item>
       <title>传统数学地质分析方法</title>
@@ -74,7 +83,7 @@ News 科学网 CNMN</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.dpchen.tech/project/</guid>
-      <description>地质空间数据科学 </description>
+      <description>Spatial Data Science CFSFDP算法浅析</description>
     </item>
     
     <item>
