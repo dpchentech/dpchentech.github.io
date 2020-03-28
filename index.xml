@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>采矿与岩石力学</title>
-    <link>http://www.dpchen.tech/</link>
+    <link>https://www.dpchen.tech/</link>
     <description>Recent content on 采矿与岩石力学</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2017-2020 [DP CHEN](mailto:author@dpchen.tech)&lt;br/&gt;[桂ICP备18000352号](http://beian.miit.gov.cn/)&amp;#8194;[桂公网安备 45092202000029号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029)</copyright>
     <lastBuildDate>Tue, 24 Mar 2020 00:31:46 +0800</lastBuildDate>
     
-	<atom:link href="http://www.dpchen.tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.dpchen.tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CFSFDP算法浅析</title>
-      <link>http://www.dpchen.tech/projects/cfsfdp/</link>
+      <link>https://www.dpchen.tech/projects/cfsfdp/</link>
       <pubDate>Tue, 24 Mar 2020 00:31:46 +0800</pubDate>
       
-      <guid>http://www.dpchen.tech/projects/cfsfdp/</guid>
-      <description>Clustering by Fast Search and Find of Density Peaks </description>
+      <guid>https://www.dpchen.tech/projects/cfsfdp/</guid>
+      <description>Clustering by Fast Search and Find of Density Peaks 快速搜索和寻找密度峰值聚类算法 由Alex Rodriguez和Alessandro Laio于2014提出</description>
     </item>
     
     <item>
       <title>传统数学地质分析方法</title>
-      <link>http://www.dpchen.tech/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</link>
+      <link>https://www.dpchen.tech/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</link>
       <pubDate>Fri, 06 Mar 2020 17:56:56 +0800</pubDate>
       
-      <guid>http://www.dpchen.tech/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://www.dpchen.tech/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</guid>
       <description>科学仅当它成功地利用数学时才达到完善程度——马克思
  数学地质是一门应用“多元分析方法”解决地质属性判别的学科。多元分析是相对一元分析而言，前者是后者的推广，从一元变量推广到多元随机变量相互关系的研究。 从地质、地球化学观点来研究，多元分析方法大致包括以下几个方面：
 1.地质体属性的研究 1）相关分析与回归分析；
@@ -44,19 +44,19 @@
     
     <item>
       <title>WordPress to Hugo</title>
-      <link>http://www.dpchen.tech/2020/02/26/wordpress-to-hugo/</link>
+      <link>https://www.dpchen.tech/2020/02/26/wordpress-to-hugo/</link>
       <pubDate>Wed, 26 Feb 2020 12:33:55 +0800</pubDate>
       
-      <guid>http://www.dpchen.tech/2020/02/26/wordpress-to-hugo/</guid>
+      <guid>https://www.dpchen.tech/2020/02/26/wordpress-to-hugo/</guid>
       <description>时隔半年，个人网站重新开通。</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.dpchen.tech/about/</link>
+      <link>https://www.dpchen.tech/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dpchen.tech/about/</guid>
+      <guid>https://www.dpchen.tech/about/</guid>
       <description>关于本站 采矿与岩石力学网是作者的个人网站，记录与分享关于采矿工程、岩体力学等相关内容的学习与研究成果。本网站不定期更新，欢迎随时关注！
 联系作者 欢迎点击下方作者链接进行交流
 本站公众号 本站内容如涉及侵权，请联系管理员处理</description>
@@ -64,10 +64,10 @@
     
     <item>
       <title></title>
-      <link>http://www.dpchen.tech/navigation/</link>
+      <link>https://www.dpchen.tech/navigation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dpchen.tech/navigation/</guid>
+      <guid>https://www.dpchen.tech/navigation/</guid>
       <description>USTB USTB Library USTB VPN Graduate School
 CSU CSU Library OD OA
 CNKI Scopus Springer Web of Science
@@ -79,19 +79,19 @@ News 科学网 CNMN</description>
     
     <item>
       <title></title>
-      <link>http://www.dpchen.tech/project/</link>
+      <link>https://www.dpchen.tech/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dpchen.tech/project/</guid>
+      <guid>https://www.dpchen.tech/project/</guid>
       <description>Spatial Data Science CFSFDP算法浅析</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.dpchen.tech/source/</link>
+      <link>https://www.dpchen.tech/source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dpchen.tech/source/</guid>
+      <guid>https://www.dpchen.tech/source/</guid>
       <description>工程地质软件 Dips 7.016 提取码请联系博主
 数值模拟软件 Flac3D 5.0 提取码请联系博主
 科研作图软件 Origin 2019 提取码请联系博主</description>
@@ -99,10 +99,10 @@ News 科学网 CNMN</description>
     
     <item>
       <title></title>
-      <link>http://www.dpchen.tech/study/</link>
+      <link>https://www.dpchen.tech/study/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dpchen.tech/study/</guid>
+      <guid>https://www.dpchen.tech/study/</guid>
       <description>空间数据科学 【公开课】芝加哥大学空间数据科学
 【公开课】“玩转地球”：谷歌地球教学应用教程
 离散元 【公开课】MatDEM理论与应用
@@ -111,10 +111,10 @@ News 科学网 CNMN</description>
     
     <item>
       <title></title>
-      <link>http://www.dpchen.tech/works/</link>
+      <link>https://www.dpchen.tech/works/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dpchen.tech/works/</guid>
+      <guid>https://www.dpchen.tech/works/</guid>
       <description>Articles    Title Download     A Fast Clustering Method for Identifying Rock Discontinuity Sets [PDF Download]   Comparative study of construction method for 3D numerical model of large complex geologic body [PDF Download]   Evolution law of interface morphology of flexible isolation layer under ore drawing from single funnel [PDF Download]   Step Calculation Method for Multi-stage Synergistic Mining of Low-grade Large-thick Ore-body [PDF Download]    Patents    Title Download     【发明专利】一种机械化上向分层楔合混合充填采矿法 [PDF Download]   【实用新型】一种矿山井下尾砂水原位处理的可渗透反应充填挡墙 [PDF Download]   【实用新型】一种液态二氧化碳爆破增透注浆复合锚杆 [PDF Download]    </description>
     </item>
     

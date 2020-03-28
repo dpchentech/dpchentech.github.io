@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 采矿与岩石力学</title>
-    <link>http://www.dpchen.tech/post/</link>
+    <link>https://www.dpchen.tech/post/</link>
     <description>Recent content in Posts on 采矿与岩石力学</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2017-2020 [DP CHEN](mailto:author@dpchen.tech)&lt;br/&gt;[桂ICP备18000352号](http://beian.miit.gov.cn/)&amp;#8194;[桂公网安备 45092202000029号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029)</copyright>
     <lastBuildDate>Fri, 06 Mar 2020 17:56:56 +0800</lastBuildDate>
     
-	<atom:link href="http://www.dpchen.tech/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.dpchen.tech/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>传统数学地质分析方法</title>
-      <link>http://www.dpchen.tech/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</link>
+      <link>https://www.dpchen.tech/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</link>
       <pubDate>Fri, 06 Mar 2020 17:56:56 +0800</pubDate>
       
-      <guid>http://www.dpchen.tech/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://www.dpchen.tech/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</guid>
       <description>科学仅当它成功地利用数学时才达到完善程度——马克思
  数学地质是一门应用“多元分析方法”解决地质属性判别的学科。多元分析是相对一元分析而言，前者是后者的推广，从一元变量推广到多元随机变量相互关系的研究。 从地质、地球化学观点来研究，多元分析方法大致包括以下几个方面：
 1.地质体属性的研究 1）相关分析与回归分析；
@@ -35,10 +35,10 @@
     
     <item>
       <title>WordPress to Hugo</title>
-      <link>http://www.dpchen.tech/2020/02/26/wordpress-to-hugo/</link>
+      <link>https://www.dpchen.tech/2020/02/26/wordpress-to-hugo/</link>
       <pubDate>Wed, 26 Feb 2020 12:33:55 +0800</pubDate>
       
-      <guid>http://www.dpchen.tech/2020/02/26/wordpress-to-hugo/</guid>
+      <guid>https://www.dpchen.tech/2020/02/26/wordpress-to-hugo/</guid>
       <description>时隔半年，个人网站重新开通。</description>
     </item>
     
