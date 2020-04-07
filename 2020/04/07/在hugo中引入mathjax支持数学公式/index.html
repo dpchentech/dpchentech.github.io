@@ -11,7 +11,7 @@
 <meta name="keywords" content="采矿，岩石力学，机器学习">
 <meta name="referrer" content="always">
 <meta name="baidu-site-verification" content="H1vRrEMQf5">
-<title>Categories - 采矿与岩石力学</title>
+<title>在Hugo中引入MathJax支持数学公式 - 采矿与岩石力学</title>
 <link rel="stylesheet" type="text/css" href="/css/main.css">
 <link rel="icon" href="https://picture.dpchen.tech/icon2020.png" type="image/x-icon">
 </head>
@@ -24,13 +24,37 @@
 </header>
 <main>
   <article>
-    <div>
-  <h1>Categories</h1>
+    <div class="title">
+  <h1>在Hugo中引入MathJax支持数学公式</h1>
+  </div>
+<div class="meta">
+  <div>2020-04-07 22:03</div>
+  </div>
+<div class="content">
+  <p>使 HTML 页面支持数学公式的常用方法是引入 MathJax 渲染，本文讲解 Hugo 引入 MathJax 脚本的具体操作步骤。</p>
+
+<h2 id="mathjax-简介">MathJax 简介</h2>
+
+<p><a href="https://www.mathjax.org/">MathJax</a> 是基于 JavaScript 开发的开源数学公式渲染引擎，支持LaTeX、MathML 及 AsciiMath 等形式的数学公式，兼容目前绝大多数主流浏览器。</p>
+
+<h2 id="使用-mmark">使用 Mmark</h2>
+
+<p>Hugo 支持 Blackfriday 和 Mmark 两种 Markdown 后端，默认使用 Blackfriday。为便于进行 MathJax 渲染，应在 MD 文件 Front Matter 中插入一行：</p>
+
+<p><code>markup: mmark</code></p>
+
+<p>切换到Mmark即可在MD文件中添加公式，数学公式开头及结尾需添加两个美元符号。例如 <code>$$f(x)=ax+b$$</code>，显示效果如下：</p>
+
+<p><span  class="math">\[f(x)=ax+b\]</span></p>
+
+<h2 id="hugo-主题配置">Hugo 主题配置</h2>
+
+<p>在Hugo主题的 <code>&lt;body&gt;</code> 部分添加一行：</p>
+
+<p><code>&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_SVG&quot;&gt;&lt;/script&gt;</code></p>
+
+<p>以上就是 Hugo 引入 MathJax 渲染的基本步骤，值得注意的是，在 Markdown 中被下划线 &quot;<code>_</code>&quot; 包围的文字表示 &quot;<strong>强调</strong>&quot; 的意思，而 LaTeX (MathJax) 使用下划线来创建一个下标。下划线的这种 “双重标准” 会导致一些意料外的情况发生。为避免这一冲突，可以在数学表达式代码的每个下划线都添加转义符号，即 &quot;<code>\_</code>&quot;。</p>
 </div>
-<ul>
-  </ul>
-
-
 
   </article>
 </main>
