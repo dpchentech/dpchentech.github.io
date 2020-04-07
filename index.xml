@@ -17,7 +17,16 @@
       <pubDate>Tue, 24 Mar 2020 00:31:46 +0800</pubDate>
       
       <guid>https://www.dpchen.tech/projects/cfsfdp/</guid>
-      <description>Clustering by Fast Search and Find of Density Peaks 快速搜索和寻找密度峰值聚类算法 由Alex Rodriguez和Alessandro Laio于2014提出</description>
+      <description>Clustering by Fast Search and Find of Density Peaks 快速搜索和寻找密度峰值聚类算法 由Alex Rodriguez和Alessandro Laio于2014提出，该方法从数据点的空间结构入手，阐述了聚类中心的两个基本特点：
+（1）密度比临近点大；
+（2）与其它密度更大的数据点的距离相对更大。
+局部密度 对于第一个特点，通过计算数据点局部密度进行表征，计算局部密度通常有两种方式：
+（1）Cut-off kernel $$\rho_{i}=\sum_{j}\chi(d_{ij}-d_{c})$$
+其中，
+$$\chi(d)={{1,\ \ d&amp;lt;0 \atop 0,\ \ d\geq0}$$
+$d_{ij}$为数据点 *i* 及点 *j* 之间的距离，$d_{c}$为截断距离，常数。根据上述定义，$\rho_{i}$表示距离数据点 *i* 小于$d_{c}$的点数（不包含 *i* 本身）。
+（2）Gaussian kernel $$\rho_{i}=\sum_{j}e^{-(d_{ij}/d_{c})^{2}}$$ 注：Cut-off kernel为离散值，Gaussian kernel为连续值。
+控制距离 </description>
     </item>
     
     <item>
