@@ -32,19 +32,31 @@
   </div>
 <div class="content">
   <h2 id="clustering-by-fast-search-and-find-of-density-peaks">Clustering by Fast Search and Find of Density Peaks</h2>
-<p><em><strong>快速搜索和寻找密度峰值聚类算法</strong></em> 由Alex Rodriguez和Alessandro Laio于2014提出，该方法从数据点的空间结构入手，阐述了聚类中心的两个基本特点：<br>
+
+<p><strong><em>快速搜索和寻找密度峰值聚类算法</em></strong> 由Alex Rodriguez和Alessandro Laio于2014提出，该方法从数据点的空间结构入手，阐述了聚类中心的两个基本特点：<br>
 <strong>（1）密度比临近点大；</strong><br>
 <strong>（2）与其它密度更大的数据点的距离相对更大。</strong></p>
+
 <h3 id="局部密度"><strong>局部密度</strong></h3>
+
 <p>对于第一个特点，通过计算数据点局部密度进行表征，计算局部密度通常有两种方式：</p>
-<h4 id="1cut-off-kernel"><strong>（1）Cut-off kernel</strong></h4>
-<p>$$\rho_{i}=\sum_{j}\chi(d_{ij}-d_{c})$$</p>
+
+<h4 id="1cutoff-kernel"><strong>（1）Cut-off kernel</strong></h4>
+
+<p><span  class="math">\[\rho_{i}=\sum_{j}\chi(d_{ij}-d_{c})\]</span></p>
+
 <p>其中，</p>
-<p>$$\chi(d)={{1,\ \ d&lt;0 \atop 0,\ \ d\geq0}$$</p>
-<p>$d_{ij}$为数据点 *i* 及点 *j* 之间的距离，$d_{c}$为截断距离，常数。根据上述定义，$\rho_{i}$表示距离数据点 *i* 小于$d_{c}$的点数（不包含 *i* 本身）。</p>
+
+<p><span  class="math">\[\chi(d)=\{{1,\ \ d<0 \atop 0,\ \ d\geq0}\]</span></p>
+
+<p><span  class="math">\(d_{ij}\)</span> 为数据点 <span  class="math">\(i\)</span> 及点 <span  class="math">\(j\)</span> 之间的距离，<span  class="math">\(d_{c}\)</span> 为截断距离，常数。根据上述定义，<span  class="math">\(\rho_{i}\)</span> 表示距离数据点 <span  class="math">\(i\)</span> 小于 <span  class="math">\(d_{c}\)</span> 的点数（不包含 <span  class="math">\(i\)</span> 本身）。</p>
+
 <h4 id="2gaussian-kernel"><strong>（2）Gaussian kernel</strong></h4>
-<p>$$\rho_{i}=\sum_{j}e^{-(d_{ij}/d_{c})^{2}}$$
-注：Cut-off kernel为离散值，Gaussian kernel为连续值。</p>
+
+<p><span  class="math">\[\rho_{i}=\sum_{j}e^{-(d_{ij}/d_{c})^{2}}\]</span></p>
+
+<p>注：Cut-off kernel为离散值，Gaussian kernel为连续值。</p>
+
 <h3 id="控制距离"><strong>控制距离</strong></h3>
 </div>
 
@@ -55,6 +67,7 @@
     <div>
       Copyright © 2017-2020 <a href="mailto:author@dpchen.tech">DP CHEN</a><br/><br/><a href="http://beian.miit.gov.cn/">桂ICP备18000352号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029">桂公网安备 45092202000029号</a></div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
 </footer>
 
 <script type="application/javascript">
