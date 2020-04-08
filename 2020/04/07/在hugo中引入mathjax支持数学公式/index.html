@@ -33,11 +33,11 @@
 <div class="content">
   <p>使 HTML 页面支持数学公式的常用方法是引入 MathJax 渲染，本文讲解 Hugo 引入 MathJax 脚本的具体操作步骤。</p>
 
-<h2 id="mathjax-简介">MathJax 简介</h2>
+<h2 id="1-mathjax-简介">1. MathJax 简介</h2>
 
 <p><a href="https://www.mathjax.org/">MathJax</a> 是基于 JavaScript 开发的开源数学公式渲染引擎，支持LaTeX、MathML 及 AsciiMath 等形式的数学公式，兼容目前绝大多数主流浏览器。</p>
 
-<h2 id="使用-mmark">使用 Mmark</h2>
+<h2 id="2-使用-mmark">2. 使用 Mmark</h2>
 
 <p>Hugo 支持 Blackfriday 和 Mmark 两种 Markdown 后端，默认使用 Blackfriday。为便于进行 MathJax 渲染，应在 MD 文件 Front Matter 中插入一行：</p>
 
@@ -47,7 +47,7 @@
 
 <p><span  class="math">\[f(x)=ax+b\]</span></p>
 
-<h2 id="hugo-主题配置">Hugo 主题配置</h2>
+<h2 id="3-hugo-主题配置">3. Hugo 主题配置</h2>
 
 <p>在Hugo主题的 <code>&lt;body&gt;</code> 部分添加一行：</p>
 
@@ -64,7 +64,9 @@
       Copyright © 2017-2020 <a href="mailto:author@dpchen.tech">DP CHEN</a><br/><br/><a href="http://beian.miit.gov.cn/">桂ICP备18000352号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029">桂公网安备 45092202000029号</a></div>
   </div>  
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
 
 <script type="application/javascript">
 var doNotTrack = false;

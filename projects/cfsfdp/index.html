@@ -11,7 +11,7 @@
 <meta name="keywords" content="采矿，岩石力学，机器学习">
 <meta name="referrer" content="always">
 <meta name="baidu-site-verification" content="H1vRrEMQf5">
-<title>CFSFDP算法浅析 - 采矿与岩石力学</title>
+<title>Clustering by Fast Search and Find of Density Peaks算法浅析 - 采矿与岩石力学</title>
 <link rel="stylesheet" type="text/css" href="/css/main.css">
 <link rel="icon" href="https://picture.dpchen.tech/icon2020.png" type="image/x-icon">
 </head>
@@ -25,23 +25,23 @@
 <main>
   <article>
     <div class="title">
-  <h1>CFSFDP算法浅析</h1>
+  <h1>Clustering by Fast Search and Find of Density Peaks算法浅析</h1>
   </div>
 <div class="meta">
   <div>2020-03-24 00:31</div>
   </div>
 <div class="content">
-  <h2 id="clustering-by-fast-search-and-find-of-density-peaks">Clustering by Fast Search and Find of Density Peaks</h2>
+  <h2 id="1-cfsfdp-简介">1. CFSFDP 简介</h2>
 
 <p><strong><em>快速搜索和寻找密度峰值聚类算法</em></strong> 由Alex Rodriguez和Alessandro Laio于2014提出，该方法从数据点的空间结构入手，阐述了聚类中心的两个基本特点：<br>
 <strong>（1）密度比临近点大；</strong><br>
 <strong>（2）与其它密度更大的数据点的距离相对更大。</strong></p>
 
-<h3 id="局部密度"><strong>局部密度</strong></h3>
+<h2 id="2-局部密度">2. <strong>局部密度</strong></h2>
 
 <p>对于第一个特点，通过计算数据点局部密度进行表征，计算局部密度通常有两种方式：</p>
 
-<h4 id="1cutoff-kernel"><strong>（1）Cut-off kernel</strong></h4>
+<h3 id="1cutoff-kernel"><strong>（1）Cut-off kernel</strong></h3>
 
 <p><span  class="math">\[\rho_{i}=\sum_{j}\chi(d_{ij}-d_{c})\]</span></p>
 
@@ -51,13 +51,13 @@
 
 <p><span  class="math">\(d_{ij}\)</span> 为数据点 <span  class="math">\(i\)</span> 及点 <span  class="math">\(j\)</span> 之间的距离，<span  class="math">\(d_{c}\)</span> 为截断距离，常数。根据上述定义，<span  class="math">\(\rho_{i}\)</span> 表示距离数据点 <span  class="math">\(i\)</span> 小于 <span  class="math">\(d_{c}\)</span> 的点数（不包含 <span  class="math">\(i\)</span> 本身）。</p>
 
-<h4 id="2gaussian-kernel"><strong>（2）Gaussian kernel</strong></h4>
+<h3 id="2gaussian-kernel"><strong>（2）Gaussian kernel</strong></h3>
 
 <p><span  class="math">\[\rho_{i}=\sum_{j}e^{-(d_{ij}/d_{c})^{2}}\]</span></p>
 
 <p>注：Cut-off kernel为离散值，Gaussian kernel为连续值。</p>
 
-<h3 id="控制距离"><strong>控制距离</strong></h3>
+<h2 id="3-控制距离">3. <strong>控制距离</strong></h2>
 </div>
 
   </article>
@@ -68,7 +68,9 @@
       Copyright © 2017-2020 <a href="mailto:author@dpchen.tech">DP CHEN</a><br/><br/><a href="http://beian.miit.gov.cn/">桂ICP备18000352号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029">桂公网安备 45092202000029号</a></div>
   </div>  
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
 
 <script type="application/javascript">
 var doNotTrack = false;
