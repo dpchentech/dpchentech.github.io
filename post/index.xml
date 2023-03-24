@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 采矿与岩石力学</title>
+    <link>https://dpchentech.github.io/post/</link>
+    <description>Recent content in Posts on 采矿与岩石力学</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2017-2023 [DP CHEN](mailto:author@dpchen.tech)&lt;br/&gt;&lt;br/&gt;[桂ICP备18000352号](http://beian.miit.gov.cn/)&amp;#8194;[桂公网安备 45092202000029号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029)</copyright>
+    <lastBuildDate>Tue, 07 Apr 2020 22:03:06 +0800</lastBuildDate><atom:link href="https://dpchentech.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在Hugo中引入MathJax支持数学公式</title>
+      <link>https://dpchentech.github.io/2020/04/07/%E5%9C%A8hugo%E4%B8%AD%E5%BC%95%E5%85%A5mathjax%E6%94%AF%E6%8C%81%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+      <pubDate>Tue, 07 Apr 2020 22:03:06 +0800</pubDate>
+      
+      <guid>https://dpchentech.github.io/2020/04/07/%E5%9C%A8hugo%E4%B8%AD%E5%BC%95%E5%85%A5mathjax%E6%94%AF%E6%8C%81%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
+      <description>使 HTML 页面支持数学公式的常用方法是引入 MathJax 渲染，本文讲解 Hugo 引入 MathJax 脚本的具体操作步骤。
+1. MathJax 简介 MathJax 是基于 JavaScript 开发的开源数学公式渲染引擎，支持LaTeX、MathML 及 AsciiMath 等形式的数学公式，兼容目前绝大多数主流浏览器。
+2. 使用 Mmark Hugo 支持 Blackfriday 和 Mmark 两种 Markdown 后端，默认使用 Blackfriday。为便于进行 MathJax 渲染，应在 MD 文件 Front Matter 中插入一行：
+markup: mmark
+切换到Mmark即可在MD文件中添加公式，数学公式开头及结尾需添加两个美元符号。例如 $$f(x)=ax+b$$，显示效果如下：
+$$f(x)=ax+b$$
+3. Hugo 主题配置 在Hugo主题的 &amp;lt;body&amp;gt; 部分添加一行：
+&amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_SVG&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+以上就是 Hugo 引入 MathJax 渲染的基本步骤，值得注意的是，在 Markdown 中被下划线 &amp;ldquo;_&amp;rdquo; 包围的文字表示 &amp;ldquo;强调&amp;rdquo; 的意思，而 LaTeX (MathJax) 使用下划线来创建一个下标。下划线的这种 “双重标准” 会导致一些意料外的情况发生。为避免这一冲突，可以在数学表达式代码的每个下划线都添加转义符号，即 &amp;ldquo;\_&amp;quot;。</description>
+    </item>
+    
+    <item>
+      <title>传统数学地质分析方法</title>
+      <link>https://dpchentech.github.io/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 06 Mar 2020 17:56:56 +0800</pubDate>
+      
+      <guid>https://dpchentech.github.io/2020/03/06/%E4%BC%A0%E7%BB%9F%E6%95%B0%E5%AD%A6%E5%9C%B0%E8%B4%A8%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</guid>
+      <description>科学仅当它成功地利用数学时才达到完善程度——马克思
+数学地质是一门应用“多元分析方法”解决地质属性判别的学科。多元分析是相对一元分析而言，前者是后者的推广，从一元变量推广到多元随机变量相互关系的研究。 从地质、地球化学观点来研究，多元分析方法大致包括以下几个方面：
+1. 地质体属性的研究 1）相关分析与回归分析；
+2）点群分析；
+3）判别分析；
+4）典型相关分析；
+5）因子分析；
+6）非线性映射分析；
+7）对应分析。
+2. 地质体特征的空间研究 1）趋势面分析；
+2）调和趋势面分析；
+3）典型趋势面分析；
+4）单位向量场分析。
+3. 变量的相关空间，地质统计分析 4. 参数的时间变化，马尔可夫概型分析 参考文献 侯景儒. 数学地质浅谈[J]. 地质与勘探, 1977(07):14-21.</description>
+    </item>
+    
+  </channel>
+</rss>

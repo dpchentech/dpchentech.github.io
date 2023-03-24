@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on 采矿与岩石力学</title>
+    <link>https://dpchentech.github.io/projects/</link>
+    <description>Recent content in Projects on 采矿与岩石力学</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2017-2023 [DP CHEN](mailto:author@dpchen.tech)&lt;br/&gt;&lt;br/&gt;[桂ICP备18000352号](http://beian.miit.gov.cn/)&amp;#8194;[桂公网安备 45092202000029号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45092202000029)</copyright>
+    <lastBuildDate>Tue, 24 Mar 2020 00:31:46 +0800</lastBuildDate><atom:link href="https://dpchentech.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clustering by Fast Search and Find of Density Peaks算法浅析</title>
+      <link>https://dpchentech.github.io/projects/cfsfdp/</link>
+      <pubDate>Tue, 24 Mar 2020 00:31:46 +0800</pubDate>
+      
+      <guid>https://dpchentech.github.io/projects/cfsfdp/</guid>
+      <description>1. CFSFDP 简介 快速搜索和寻找密度峰值聚类算法 由Alex Rodriguez和Alessandro Laio于2014提出，该方法从数据点的空间结构入手，阐述了聚类中心的两个基本特点：
+（1）密度比临近点大；
+（2）与其它密度更大的数据点的距离相对更大。
+2. 局部密度 对于第一个特点，通过计算数据点局部密度进行表征，计算局部密度通常有两种方式：
+（1）Cut-off kernel $$\rho_{i}=\sum_{j}\chi(d_{ij}-d_{c})$$
+其中，
+$$\chi(d)={{1,\ \ d&amp;lt;0 \atop 0,\ \ d\geq0}$$
+$$d_{ij}$$ 为数据点 $$i$$ 及点 $$j$$ 之间的距离，$$d_{c}$$ 为截断距离，常数。根据上述定义，$$\rho_{i}$$ 表示距离数据点 $$i$$ 小于 $$d_{c}$$ 的点数（不包含 $$i$$ 本身）。
+（2）Gaussian kernel $$\rho_{i}=\sum_{j}e^{-(d_{ij}/d_{c})^{2}}$$
+注：Cut-off kernel为离散值，Gaussian kernel为连续值。
+3. 控制距离 </description>
+    </item>
+    
+  </channel>
+</rss>
